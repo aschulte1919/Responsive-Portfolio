@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ann Schulte Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link to css that normalizes browser-->
+    <link href="assets/css/normalize.css" rel="stylesheet" type="text/css">
+    <!-- link to css-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!-- link to favicon-->
+    <link href="assets/images/favicon.png" rel="shortcut icon" />
+    <!-- link to other pages in the HTML-->
+    <link href="index.html" rel="import" type="text/html">
+    <link href="portfolio.html" rel="import" type="text/html">
+    <link href="contact.html" rel="import" type="text/html">
+</head>
+
+<!-- start of the visible HTML-->
+
+<body>
+    <!-- links background image-->
+    <img src='assets/images/background.png' alt="" style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
+    <!-- header... name and nav menu-->
+    <header>
+        
+            <div id="navigation">
+                <nav>
+                    <div class="hwrapper">
+                    <h1 id="name">Ann Schulte</h1>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="index.html">About</a></li>
+                    </ul>
+                </div>
+                </nav>
+        </div>
+        </header>
+
+    <div class="wrapper">
+
+        <section id="content">
+
+            <h2>Contact</h2>
+            <hr>
+            <form>
+                <div class="form-group">
+                  <label for="name1" style="padding-right: 40px;">Name</label>
+                  <input type="name" class="form-control" id="name1" placeholder="full name">
+                </div>
+                <br>
+
+                <div class="form-group">
+                    <label for="email1" style="padding-right:  40px;">Email</label>
+                    <input type="email" class="form-control" id="email1" placeholder="example@gmail.com">
+                  </div>
+                <br>
+
+                <div class="form-group">
+                  <label for="message1" style="padding-right: 22px; text-align: top;">Message</label>
+                  <textarea class="form-control" id="message1" placeholder="message" rows="8"></textarea>
+                </div>
+                <br>
+
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </div>
+                  <br>
+              </form>
+        </section>
+    </div>
+
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</body>
+
+</html>
