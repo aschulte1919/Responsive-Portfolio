@@ -17,8 +17,24 @@ p{
 
 /****** responsive *********/
 
-img{
-    max-width: 100%;
+@media screen and (max-width: 660px) {
+    #name {
+      float: none;
+      display: block;
+      text-align: center;
+      position: relative;
+      width: 40%;
+      max-width: 100%;
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+    ul {
+        float: none;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+    }
 }
 
 /****** header *********/
@@ -44,19 +60,6 @@ img{
     top: 0;
 }
 
-@media screen and (max-width: 660px) {
-    #name {
-      float: none;
-      display: block;
-      text-align: center;
-      position: relative;
-      width: 60%;
-      max-width: 100%;
-      margin-left: 0%;
-      margin-right: 0%;
-    }
-}
-
 /****** nav *********/
 
 nav {
@@ -78,16 +81,6 @@ ul {
     display: block;
 }
 
-@media screen and (max-width: 660px) {
-    ul {
-        float: none;
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-        width: 90%;
-    }
-  }
-
 li a {
     display: block;
     border-right-color: darkgray;
@@ -106,9 +99,9 @@ li a:hover {
 /****** main content *********/
 
 .portfolio-work{
-    height: 400px;
+    height: 500px;
     margin: 20px;
-    width: 400px;
+    width: 93%;
 }
 
 .wrapper{
